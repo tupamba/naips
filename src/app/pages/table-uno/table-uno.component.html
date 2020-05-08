@@ -1,0 +1,69 @@
+<div *ngIf="game" class="container" style="margin-bottom: 10px;">
+    <div class="row">
+        <div class="col-12">Estas jugando: {{game.name}}</div>
+        <div *ngIf="authService.getCurrentUser().id == game.owner.user.id" class="col-4">
+            <button type="button" class="btn btn-dark" (click)="endGame()">Terminar juego</button>
+        </div>
+        <div *ngIf="authService.getCurrentUser().id == game.owner.user.id" class="col-4"><button type="button" class="btn btn-dark" (click)="resetCards()">Resetear partida</button></div>
+        <div *ngIf="authService.getCurrentUser().id == game.owner.user.id" class="col-4">
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalDeal">Repartir cartas</button>
+        </div>
+        <div *ngIf="authService.getCurrentUser().id != game.owner.user.id" class="col-6"><button type="button" class="btn btn-dark" (click)="outGame()">Salir de la partida</button></div>
+    </div>
+</div>
+<div class="container" style="background: beige;">
+    <h5 *ngIf="game" class="card-title">Mesa</h5>
+    <h6 *ngIf="game && lastCard" style="border-color: greenyellow;" class="card-title">Carta jugada: {{lastCard.user.name}} - {{lastCard.card.text}} {{lastCard.card.type}}</h6>
+    <div class="row">
+        <div class="col-4 col-md-2" style="margin: 10px;">
+            <p>Mazo</p>
+            <button type="button" class="btn btn-dark deck" data-toggle="modal" data-target="#modalTake">Robar</button>
+        </div>
+        <div class="col-4 col-md-2" style="margin: 10px;" *ngIf="lastCard">
+            <div class="card" style="padding: 10px;" [ngClass]="{'multicolor': lastCard.card.type =='Multicolor',
+            'red': lastCard.card.type =='Rojo',
+            'blue': lastCard.card.type =='Azul',
+            'green': lastCard.card.type =='Verde',
+            'yellow': lastCard.card.type =='Amarillo'}">
+                <div class="row">
+                    <h1 style="padding: 10px;" class="card-title">{{lastCard.card.text}}</h1>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="lastCard && lastCard.user.id == authService.getCurrentUser().id" class="col-12 col-md-2" style="margin: 10px;">
+            <button type="button" class="btn btn-danger float-right" (click)="unDo()">Deshacer</button>
+        </div>
+    </div>
+</div>
+<h5 *ngIf="game" class="card-title">Participantes</h5>
+<div class="container" *ngIf="(usercards | async) && (usercards | async)?.length > 0; else showUserEmpty">
+    <div class="row" *ngFor="let item of usercards | async">
+        <div class="col-8">{{item.userName}}</div>
+        <div class="col-4">{{item.cardCount}}</div>
+    </div>
+</div>
+<ng-template #showUserEmpty>
+    <div class="alert alert-warning" role="alert">
+        El juego no tiene otros participantes
+    </div>
+</ng-template>
+
+<div class="alert alert-danger" role="alert" [hidden]="hiddenError">
+    {{messageError}}
+</div>
+<h5 *ngIf="game" class="card-title">Mis cartas</h5>
+<div class="container" *ngIf="game && (mycards | async) && (mycards | async)?.length > 0; else showEmpty">
+    <div class="row">
+        <div class="col-md-2 col-4" *ngFor="let item of mycards | async">
+            <app-card-uno-view (playCard)="playCard($event)" [card]="item"></app-card-uno-view>
+        </div>
+    </div>
+</div>
+<ng-template #showEmpty>
+    <div class="alert alert-warning" role="alert">
+        Esperando mis cartas...
+    </div>
+</ng-template>
+
+<app-deal-cards [idModal]="'modalDeal'" (dealCard)="dealCards($event)"></app-deal-cards>
+<app-takea-card [idModal]="'modalTake'" (takeCard)="takeCards($event)"></app-takea-card>

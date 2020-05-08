@@ -1,0 +1,19 @@
+.multicolor {
+    background: linear-gradient(to top, red, green 50%, yellow 50%, blue 100%);
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}

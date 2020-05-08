@@ -1,0 +1,44 @@
+<div class="form-group">
+    <p>Queres crear una nueva partida de cartas para jugar con tus amigos?</p>
+    <div class="form-group">
+        <label for="nGame">Ingresá el nombre para la nueva partida</label>
+        <input id="nGame" [(ngModel)]="nameNewGame" type="text" class="form-control" placeholder="Nombre de la partida" aria-label="Nombre de la nueva partida" aria-describedby="button-addon2">
+    </div>
+    <button class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#typeCardsModal">Crear</button>
+</div>
+<div class="form-group">
+    <p>Queres unirte a una partida ya creada por otro?</p>
+    <div class="form-group">
+        <label for="uGame">Ingresá el nombre de la partida a unirte.</label>
+        <input id="uGame" [(ngModel)]="nameJoinGame" type="text" class="form-control" placeholder="Nombre de la partida" aria-label="Nombre de la nueva partida" aria-describedby="button-addon2">
+    </div>
+    <button class="btn btn-outline-secondary" type="button" (click)="joinGame()">Unirme al juego</button>
+</div>
+<div class="alert alert-danger" [hidden]="hiddenError" role="alert">
+    {{messageError}}
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="typeCardsModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Vas a creaar una nueva partida.</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Selecciona el tipo de cartas a jugar</label>
+                    <select [(ngModel)]="typeDeck" class="form-control" id="exampleFormControlSelect1">
+                      <option *ngFor="let item of deckCards" [value]="item.type">{{item.name}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="createGame()">Crear</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="card" style="padding: 10px;">
+    <div [ngClass]="{'multicolor': card.card.type =='Multicolor',
+                    'red': card.card.type =='Rojo',
+                    'blue': card.card.type =='Azul',
+                    'green': card.card.type =='Verde',
+                    'yellow': card.card.type =='Amarillo'}">
+        <div class="row">
+            <h1 class="col-2" class="card-title">{{card.card.text}}</h1>
+        </div>
+    </div>
+</div>

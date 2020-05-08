@@ -1,0 +1,16 @@
+<div>
+    <h4>Unirce a una partida</h4>
+    <div>
+        <div class="form-group">
+            <div class="input-group mb-3">
+                <input [(ngModel)]="nameGame" type="text" class="form-control" placeholder="Nombre de la partida" aria-label="Nombre de la partida" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2" (click)="joinGame()">Crear</button>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-danger" [hidden]="showError" role="alert">
+            No fue posible unirce a la partida.
+        </div>
+    </div>
+</div>

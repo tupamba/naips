@@ -1,0 +1,12 @@
+<div class="card" (click)="playCard.emit(card)">
+    <!-- <img [src]="card.imagePath" class="card-img-top" width="50px">  -->
+    <div class="card-body">
+        <div class="row">
+            <h5 class="col-4" class="card-title">{{card.number}}</h5>
+            <!-- <h6 class="col-8 float-right card-subtitle mb-2 text-muted" style="font-size: 0.5rem;">{{card.type}}</h6> -->
+        </div>
+        <div class="row">
+            <img class="col-12 img-fluid" alt="Responsive image" [src]="cardType" />
+        </div>
+    </div>
+</div>

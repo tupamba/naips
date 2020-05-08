@@ -1,0 +1,11 @@
+<div class="card card-body">
+    <div class="input-group mb-3">
+        <input type="text" [(ngModel)]="message" class="form-control" placeholder="Escribí tu mensaje" aria-describedby="button-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" (click)="send()">Enviar</button>
+        </div>
+    </div>
+    <div class="row" *ngFor="let item of chatMessages">
+        {{item.user.name}}: {{item.text}}
+    </div>
+</div>

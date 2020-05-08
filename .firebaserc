@@ -1,0 +1,15 @@
+{
+  "targets": {
+    "pruebadeconcepto-1208": {
+      "hosting": {
+        "cards": [
+          "pruebadeconcepto-1208"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "naipes": "pruebadeconcepto-1208",
+    "default": "pruebadeconcepto-1208"
+  }
+}

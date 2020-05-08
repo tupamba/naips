@@ -1,0 +1,41 @@
+{
+    "deck": [{
+            "name": "Español",
+            "type": 1,
+            "cardList": [{
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Rojo"
+                }
+            ]
+        },
+        {
+            "name": "Uno",
+            "type": 2,
+            "cardList": [{
+                "imagePath": "",
+                "number": 1,
+                "type": "Rojo"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,1453 @@
+{
+    "deck": [{
+            "name": "Español",
+            "type": 1,
+            "cardList": [{
+                    "imagePath": "",
+                    "number": 1,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 2,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 3,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 4,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 5,
+                    "type": "Oro"
+                }, {
+                    "imagePath": "",
+                    "number": 6,
+                    "type": "Oro"
+                }, {
+                    "imagePath": "",
+                    "number": 7,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 10,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 11,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 12,
+                    "type": "Oro"
+                },
+                {
+                    "imagePath": "",
+                    "number": 1,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 2,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 3,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 4,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 5,
+                    "type": "Copa"
+                }, {
+                    "imagePath": "",
+                    "number": 6,
+                    "type": "Copa"
+                }, {
+                    "imagePath": "",
+                    "number": 7,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 10,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 11,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 12,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 1,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 2,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 3,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 4,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 5,
+                    "type": "Basto"
+                }, {
+                    "imagePath": "",
+                    "number": 6,
+                    "type": "Basto"
+                }, {
+                    "imagePath": "",
+                    "number": 7,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 10,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 11,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 12,
+                    "type": "Basto"
+                },
+                {
+                    "imagePath": "",
+                    "number": 1,
+                    "type": "Espada"
+                },
+                {
+                    "imagePath": "",
+                    "number": 2,
+                    "type": "Espada"
+                },
+                {
+                    "imagePath": "",
+                    "number": 3,
+                    "type": "Copa"
+                },
+                {
+                    "imagePath": "",
+                    "number": 4,
+                    "type": "Espada"
+                },
+                {
+                    "imagePath": "",
+                    "number": 5,
+                    "type": "Espada"
+                }, {
+                    "imagePath": "",
+                    "number": 6,
+                    "type": "Espada"
+                }, {
+                    "imagePath": "",
+                    "number": 7,
+                    "type": "Espada"
+                },
+                {
+                    "imagePath": "",
+                    "number": 10,
+                    "type": "Espada"
+                },
+                {
+                    "imagePath": "",
+                    "number": 11,
+                    "type": "Espada"
+                },
+                {
+                    "imagePath": "",
+                    "number": 12,
+                    "type": "Espada"
+                }
+            ]
+        },
+        {
+            "name": "Uno",
+            "type": 2,
+            "cardList": [{
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 0,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 0,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 0,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "1",
+                    "number": 1,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "3",
+                    "number": 3,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "4",
+                    "number": 4,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "5",
+                    "number": 5,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "6",
+                    "number": 6,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "7",
+                    "number": 7,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "8",
+                    "number": 8,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "9",
+                    "number": 9,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+2",
+                    "number": 2,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "+4",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 4,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 0,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 0,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "0",
+                    "number": 0,
+                    "type": "Multicolor"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Rojo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Azul"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Verde"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "=",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Amarillo"
+                },
+                {
+                    "imagePath": "",
+                    "text": "X",
+                    "number": 0,
+                    "type": "Amarillo"
+                }
+            ]
+        }
+    ]
+}

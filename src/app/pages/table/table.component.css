@@ -1,0 +1,8 @@
+.sample {
+    opacity: 0.8;
+}
+
+.current {
+    border: solid;
+    border-color: greenyellow;
+}

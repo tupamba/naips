@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cards</title>
+    <script>
+        function asyncTaskLater(delay, i) {
+            while (i > 0) {
+                i--;
+            }
+            return "while";
+        }
+
+        function asyncTask(i) {
+            return new Promise(resolve => resolve(i + 1));
+        }
+        async function runAsyncTasks() {
+
+            const res1 = asyncTask(0, 90000000);
+            console.log(res1);
+            // const res2 = await asyncTask(res1);
+            // console.log(res2);
+            // const res3 = await asyncTask(res2);
+            // console.log(res3);
+            return "Everything done";
+        }
+
+        async function test1() {
+            let p = 0;
+            // asyncTask(0).then((r) => {
+            //     p = r;
+            //     console.log(p);
+            // });
+            p = await asyncTask(0);
+            // runAsyncTasks().then(result => console.log(result));
+            // timer();
+            console.log(p);
+
+        }
+        async function test() {
+            test1();
+            console.log("finish");
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="test()">PRUEBA</button>
+</body>
+
+</html>

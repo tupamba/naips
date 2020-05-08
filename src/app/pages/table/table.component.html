@@ -1,0 +1,73 @@
+<div *ngIf="game" class="container" style="margin-bottom: 10px;">
+    <div class="row">
+        <div class="col-12">Estas jugando: {{game.name}}</div>
+        <div *ngIf="authService.getCurrentUser().id == game.owner.user.id" class="col-4">
+            <button type="button" class="btn btn-dark" (click)="endGame()">Terminar juego</button>
+        </div>
+        <div *ngIf="authService.getCurrentUser().id == game.owner.user.id" class="col-4"><button type="button" class="btn btn-dark" (click)="resetCards()">Resetear partida</button></div>
+        <div *ngIf="authService.getCurrentUser().id == game.owner.user.id" class="col-4">
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalDeal">Repartir cartas</button>
+        </div>
+        <div *ngIf="authService.getCurrentUser().id != game.owner.user.id" class="col-6"><button type="button" class="btn btn-dark" (click)="outGame()">Salir de la partida</button></div>
+    </div>
+</div>
+<div class="alert alert-danger" role="alert" [hidden]="hiddenError">
+    {{messageError}}
+</div>
+<div class="alert alert-danger">
+    <h6 class="alert-info" *ngIf="(userSings | async) && (userSings | async)?.length">Señas</h6>
+    <h6 *ngFor="let sign of userSings | async" class="alert-success">{{sign.user.name}} {{sign.text}}</h6>
+</div>
+<p>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseChat" aria-expanded="false" (click)="expandClick()" aria-controls="collapseChat">
+     {{textChatButton}}
+    </button>
+    <label style="color: red;" [hidden]="!newMessage">  Nuevo chat!</label>
+</p>
+<div class="collapse" id="collapseChat">
+    <app-chat-view [chatMessages]="chatMessages" (newMessage)="sendChat($event)"></app-chat-view>
+</div>
+
+<h5 *ngIf="game" class="card-title">Mis cartas</h5>
+<div class="container" *ngIf="game && (mycards | async) && (mycards | async)?.length > 0; else showEmpty">
+    <div class="row">
+        <div class="col-md-2 col-4" *ngFor="let item of mycards | async">
+            <app-card-view (playCard)="playCard($event)" [card]="item"></app-card-view>
+        </div>
+    </div>
+</div>
+<ng-template #showEmpty>
+    <div class="alert alert-warning" role="alert">
+        Esperando mis cartas...
+    </div>
+</ng-template>
+<div class="container" style="background: beige;" *ngIf="game && (tablecards | async) && (tablecards | async)?.length > 0; else showTableEmpty">
+    <h5 *ngIf="game" class="card-title">Mesa</h5>
+    <h6 *ngIf="game" style="border-color: greenyellow;" class="card-title">Carta jugada: {{getLastCard((tablecards | async))}}</h6>
+    <div class="row">
+        <div class="col-4 col-md-2" style="margin: 10px;" [ngClass]="{'sample': item.user.name.toUpperCase() =='MUESTRA','current': item.current}" *ngFor="let item of tablecards | async">
+            <p *ngIf="item.user.name.toUpperCase() =='MUESTRA'">Muestra</p>
+            <app-card-view-table (playCard)="playCard($event)" [card]="item"></app-card-view-table>
+        </div>
+    </div>
+</div>
+<ng-template #showTableEmpty>
+    <div class="alert alert-warning" role="alert">
+        Esperando cartas...
+    </div>
+</ng-template>
+<h5 *ngIf="game" class="card-title">Mandale una seña</h5>
+<div class="container" *ngIf="(usercards | async) && (usercards | async)?.length > 0; else showUserEmpty">
+    <div class="row" *ngFor="let item of usercards | async">
+        <div class="col-8">{{item.userName}}</div>
+        <div class="col-4"><button class="btn btn-info" (click)="userIdSendSign = item.userid" data-toggle="modal" data-target="#modalSign">Señas</button></div>
+    </div>
+</div>
+<ng-template #showUserEmpty>
+    <div class="alert alert-warning" role="alert">
+        El juego no tiene otros participantes
+    </div>
+</ng-template>
+
+<app-deal-cards [idModal]="'modalDeal'" (dealCard)="dealCards($event)"></app-deal-cards>
+<app-select-signs [idModal]="'modalSign'" (selectSign)="selectSign($event)"></app-select-signs>
